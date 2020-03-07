@@ -1,0 +1,26 @@
+L'organisation des documents et l'historique des modifications sont présentés.
+
+Les documents contractuels d'avancement du projet sont établis.
+Les tâches sont identifiées et les jalons sont cohérents.
+
+Le projet est modélisé sous forme de diagrammes SysML/UML (exigence, contexte, cas d'utilisation et/ou séquence système...)
+Argumentation (fond) précise et communication (forme) claire et adaptée.
+
+L'architecture du système est définie sous forme de diagrammes SysML/UML (bloc, bloc interne, déploiement…)
+Argumentation (fond) précise et communication (forme) claire et adaptée.
+
+Toutes les solutions proposées sont cohérentes et peuvent répondent au besoin.
+Argumentation (fond) précise et communication (forme) claire et adaptée.
+"Un tableau comparatif des solutions existantes ou innovantes est établi."
+"Les avantages et inconvénients de chacune sont recensés. Le coût de chaque solution est estimé."
+
+Le choix est justifié et argumenté.
+Argumentation (fond) précise et communication (forme) claire et adaptée.
+
+Les résultats des mesures sont pertinents.
+
+Le schéma structurel de la partie unitaire est établi dans les règles de l'art.
+Les sources respectent les critères de qualité logicielle.
+
+Le module logiciel est effectivement modifié et fonctionnel.
+La chaîne de développement est opérationnelle.
