@@ -1,4 +1,4 @@
-L'organisation des documents et l'historique des modifications sont présentés.
+//L'organisation des documents et l'historique des modifications sont présentés.
 
 Les documents contractuels d'avancement du projet sont établis.
 Les tâches sont identifiées et les jalons sont cohérents.
@@ -9,7 +9,7 @@ Argumentation (fond) précise et communication (forme) claire et adaptée.
 L'architecture du système est définie sous forme de diagrammes SysML/UML (bloc, bloc interne, déploiement…)
 Argumentation (fond) précise et communication (forme) claire et adaptée.
 
-Toutes les solutions proposées sont cohérentes et peuvent répondent au besoin.
+Toutes les solutions proposées sont cohérentes et peuvent répondrent au besoin.
 Argumentation (fond) précise et communication (forme) claire et adaptée.
 "Un tableau comparatif des solutions existantes ou innovantes est établi."
 "Les avantages et inconvénients de chacune sont recensés. Le coût de chaque solution est estimé."
