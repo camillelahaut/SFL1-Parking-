@@ -1,0 +1,47 @@
+html, body{
+    background: #ffffff;
+    margin: 10%, 0, 10%, 0;
+    min-height: 100px;
+}
+
+header{
+    height: 200px;
+}
+
+body{
+    min-height: 2000px;
+}
+
+body::-webkit-scrollbar{
+    widht: 5px;
+
+}
+body::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background: #1b3737;
+    color: darkgray;
+}
+.budy{
+    min-height: 100px;
+}
+
+.container{
+    height: 20rem;
+    padding: 1rem;
+    background: darkgrey;
+}
+#c1{
+
+}
