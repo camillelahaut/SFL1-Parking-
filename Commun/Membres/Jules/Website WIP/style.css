@@ -1,19 +1,56 @@
 html, body{
-    background: #ffffff;
+    display: block;
+    background: black;
     margin: 0;
-    height: 100%;
 }
 
 header{
     padding: 2rem;
     position: relative;
     top: 0;
+    width: 100%;
     background: #a6a6a6;
     color: #eb206c  ;
     font-family: Montserrat;
     text-transform: uppercase;
     align-content: center;
 }
+
+.budy{
+    position: relative;
+    height: 1000px;
+}
+
+.container{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    margin-right: 5%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 15p #FFffff;
+    padding: 1rem 2rem 1rem 2rem;
+    transition: 2s;
+    font-family: Consolas;
+    font-size: 15px;
+    letter-spacing: 3px;
+    background: black;
+}
+
+.a:hover{
+    background: #3718ff;
+    box-shadow: 0 0 10px #3718ff, 0 0 25px #3718ff, 0 0 50px #3718ff, 0 0 75px #3718ff, 0 0 100px #3718ff;
+}
+
 footer{
     padding: 2rem;
     position: relative;
@@ -22,13 +59,7 @@ footer{
     width: 100%;
     background: #1b3737;
     color: #ffffff;
-}
-.budy{
-    min-height: 100%;
-}
-
-.container{
-    color: #ffffff;
+    display: block;
 }
 
 @media (max-width: 768px) and (min-width: 415px){
@@ -43,75 +74,19 @@ footer{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-#loader {
+::-webkit-scrollbar{
+    right: 0;
+    height: 0;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    z-index: 1000;
-    margin: -75px 0 0 -75px;
-    border: 16px solid #f3f3f3;
-    border-radius: 50%;
-    border-top: 16px solid #3498db;
-    width: 120px;
-    height: 120px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-    position: relative;
-    -webkit-animation-name: animatebottom;
-    -webkit-animation-duration: 1s;
-    animation-name: animatebottom;
-    animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-    from { bottom:-100px; opacity:0 }
-    to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom {
-    from{ bottom:-100px; opacity:0 }
-    to{ bottom:0; opacity:1 }
-}
-
-
-
-
-body::-webkit-scrollbar{
-    widht: 5rem;
+    widht:0.5rem;
     color: purple;
     background: #1b3737;
 }
-body::-webkit-scrollbar-track{
+::-webkit-scrollbar-track{
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
-body::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
 }
