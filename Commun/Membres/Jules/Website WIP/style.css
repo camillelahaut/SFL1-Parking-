@@ -30,25 +30,24 @@ header{
     color: #ffffff;
 }
 
-.a {
+button {
     position: relative;
     top: 50%;
     left: 50%;
     text-transform: uppercase;
     font-weight: bold;
     color: white;
-    border: 15p #FFffff;
     padding: 1rem 2rem 1rem 2rem;
-    transition: 2s;
+    transition: 0.5s;
     font-family: Consolas;
     font-size: 15px;
     letter-spacing: 3px;
     background: black;
 }
 
-.a:hover{
+button:hover{
     background: #3718ff;
-    box-shadow: 0 0 10px #3718ff, 0 0 25px #3718ff, 0 0 50px #3718ff, 0 0 75px #3718ff, 0 0 100px #3718ff;
+    box-shadow: 0 0 10px #3718ff, 0 0 40px #3718ff, 0 0 80px #3718ff;
 }
 
 footer{
