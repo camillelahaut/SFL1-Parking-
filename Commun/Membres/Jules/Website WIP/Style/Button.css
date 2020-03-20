@@ -1,0 +1,135 @@
+button {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff4d89;
+    text-shadow: 0 0 10px #eb206c,
+                 0 0 15px #eb206c,
+                 0 0 30px #eb206c;
+    border: black;
+    background: transparent;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 15px;
+    letter-spacing: 3px;
+    overflow: hidden;
+    font-family: Consolas;
+}
+button:hover{
+    color: black;
+    background: #ff26bd;
+    box-shadow: 0 0 20px #ff26bd,
+    0 0 40px #ff26bd,
+    0 0 80px #ff26bd;
+    transition: 0.4s;
+}
+button span{
+    position: absolute;
+    display: block;
+}
+button span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #ff26bd);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1 {
+    0%{
+        left: -100%;
+    }
+
+    50%,100%{
+        left: 100%;
+    }
+}
+button span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #ff26bd);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2 {
+    0%{
+        top: -100%;
+    }
+
+    50%,100%{
+        top: 100%;
+    }
+}
+button span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #ff26bd);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animate3 {
+    0%{
+        right: -100%;
+    }
+
+    50%,100%{
+        right: 100%;
+    }
+}
+button span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #ff26bd);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4 {
+    0%{
+        bottom: -100%;
+    }
+
+    50%,100%{
+        bottom: 100%;
+    }
+}
+button:checked{
+    background: white;
+}
+
+label{
+    color: white !important;
+    position: center;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8),
+                -1px -1px 6px rgba(255, 255, 255, 0.1);
+    font-size: 40px;
+    transition: 0.2s;
+}
+
+#twitter{
+    padding: 0.5rem 0.3rem 0.3rem 0.7rem;
+}
+
+#facebook{
+    padding: 0.5rem 0.1rem 0.3rem 0.9rem;
+}
+
+#linkedin{
+    padding: 0.5rem 0.3rem 0.3rem 0.8rem;
+}
+
+label:hover{
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.8),
+                inset -1px -1px 6px rgba(255, 255, 255, 0.1);
+}
+
+.fa{
+    height: 40px;
+    width: 40px;
+    color: white;
+}
