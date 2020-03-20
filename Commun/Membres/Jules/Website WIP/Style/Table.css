@@ -1,0 +1,25 @@
+table{
+    position: relative;
+    width: 100%;
+    color: #ff4d89;
+    text-shadow: 0 0 10px #eb206c,
+    0 0 20px #eb206c,
+    0 0 40px #eb206c;
+    padding: 3rem;
+}
+
+tr{
+    padding: 1rem;
+    background: rgba(8, 8, 8, 0.86);
+}
+
+td{
+    padding: 1.5rem 2.5rem;
+}
+
+tfoot{
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+    contain: content;
+}

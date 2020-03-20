@@ -12,6 +12,7 @@ button {
     font-size: 15px;
     letter-spacing: 3px;
     overflow: hidden;
+    font-family: Consolas;
 }
 button:hover{
     color: black;
@@ -19,7 +20,7 @@ button:hover{
     box-shadow: 0 0 20px #ff26bd,
     0 0 40px #ff26bd,
     0 0 80px #ff26bd;
-    transition: 0.8s;
+    transition: 0.4s;
 }
 button span{
     position: absolute;
