@@ -11,3 +11,16 @@ D:\Apply\VirtualBox VM\Serveur Application 2.0\Share\Traitement_JSON\Traitement_
 D:\Apply\VirtualBox VM\Serveur Application 2.0\Share\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.pdb
 D:\Apply\VirtualBox VM\Serveur Application 2.0\Share\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Apply\VirtualBox VM\Serveur Application 2.0\Share\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.csproj.CopyComplete
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.exe
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.deps.json
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.runtimeconfig.json
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.runtimeconfig.dev.json
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.dll
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Traitement_JSON.pdb
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.csprojAssemblyReference.cache
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.AssemblyInfoInputs.cache
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.AssemblyInfo.cs
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.csproj.CopyComplete
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.dll
+E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\Traitement_JSON\Traitement_JSON\obj\Debug\netcoreapp3.1\Traitement_JSON.pdb

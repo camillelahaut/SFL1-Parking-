@@ -482,19 +482,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tooxi\\.nuget\\packages\\": {}
+    "C:\\Users\\Jules\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Apply\\VirtualBox VM\\Serveur Application 2.0\\Share\\Traitement_JSON\\Traitement_JSON\\Traitement_JSON.csproj",
+      "projectUniqueName": "E:\\Drawing Git Repository\\SFL1-Parking-\\Commun\\Membres\\Jules\\Traitement_JSON\\Traitement_JSON\\Traitement_JSON.csproj",
       "projectName": "Traitement_JSON",
-      "projectPath": "D:\\Apply\\VirtualBox VM\\Serveur Application 2.0\\Share\\Traitement_JSON\\Traitement_JSON\\Traitement_JSON.csproj",
-      "packagesPath": "C:\\Users\\tooxi\\.nuget\\packages\\",
-      "outputPath": "D:\\Apply\\VirtualBox VM\\Serveur Application 2.0\\Share\\Traitement_JSON\\Traitement_JSON\\obj\\",
+      "projectPath": "E:\\Drawing Git Repository\\SFL1-Parking-\\Commun\\Membres\\Jules\\Traitement_JSON\\Traitement_JSON\\Traitement_JSON.csproj",
+      "packagesPath": "C:\\Users\\Jules\\.nuget\\packages\\",
+      "outputPath": "E:\\Drawing Git Repository\\SFL1-Parking-\\Commun\\Membres\\Jules\\Traitement_JSON\\Traitement_JSON\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tooxi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jules\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
