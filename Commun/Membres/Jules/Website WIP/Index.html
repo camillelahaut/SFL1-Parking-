@@ -3,13 +3,17 @@
 <head>
     <link rel="stylesheet" href="Style/style.css">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="Scripts/DateTime.js"></script>
+    <script src="Scripts/LoadingScreen.js"></script>
 </head>
 <body>
 
 <header>
     <img src="https://stfelixlasalle.fr/wp-content/themes/wordpress-bootstrap-master/images/logo2.png" alt="St Félix-La Salle">
-    <h1>Bienvenu au parking professeur de l'ensemble st-félix la salle</h1>
+    <p id="title">Bienvenu au parking professeur de l'ensemble st-félix la salle</p>
 </header>
+
 <div class="body">
 <table>
     <tr>
@@ -19,7 +23,9 @@
         </td>
         <td>
             <h2>Places occupées</h2>
-            <p></p>
+            <p>Dernière mise à jour : </p>
+            <span id="date_heure"></span>
+            <script type="text/javascript">window.onload = date_heure('date_heure');</script>
         </td>
     </tr>
     <tfoot>
@@ -37,6 +43,7 @@
     </tfoot>
 </table>
 </div>
+
 <footer>
     <div class="footerContainer">
         <img src="https://stfelixlasalle.fr/wp-content/themes/wordpress-bootstrap-master/images/logo2.png" alt="Ensemble St Félix-La Salle">
@@ -45,18 +52,18 @@
             27 rue du Ballet - BP 60105<br>
             44001 NANTES Cedex 1<br>
         </p>
-        <a href="" class="tel">Tél. 02 44 76 35 00</a>
+        <a  id="lienfooter" href="" class="tel">Tél. 02 44 76 35 00</a>
     </div>
     <div class="footerContainer">
         <h3>
             Informations
         </h3>
         <ul>
-            <li><a href="https://stfelixlasalle.fr/general/le-reseau-la-salle-france.html">Réseau La Salle</a></li>
-            <li><a href="https://stfelixlasalle.fr/infos-pratiques">Contact et plan d'accès</a></li>
-            <li><a href="https://stfelixlasalle.fr/general/inscriptions-infos-pratiques/inscriptions.html">Inscriptions</a></li>
-            <li><a href="https://stfelixlasalle.fr/general/tarifs-aides-sociales.html">Tarifs</a></li>
-            <li><a href="https://stfelixlasalle.fr/general/projet-detablissement-5-2.html">Projet d'établissement</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/general/le-reseau-la-salle-france.html">Réseau La Salle</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/infos-pratiques">Contact et plan d'accès</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/general/inscriptions-infos-pratiques/inscriptions.html">Inscriptions</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/general/tarifs-aides-sociales.html">Tarifs</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/general/projet-detablissement-5-2.html">Projet d'établissement</a></li>
         </ul>
     </div>
     <div class="footerContainer">
@@ -64,11 +71,11 @@
             nos structures
         </h3>
         <ul>
-            <li><a href="https://stfelixlasalle.fr/etablissement/college-le-bon-conseil">Collège Le Bon Conseil</a></li>
-            <li><a href="https://stfelixlasalle.fr/etablissement/college-saint-donatien">Collège St Donatien</a></li>
-            <li><a href="https://stfelixlasalle.fr/etablissement/voie-generale-technologique">Lycée Général et Technologique</a></li>
-            <li><a href="https://stfelixlasalle.fr/etablissement/lycee-professionnel">Lycée Professionnel</a></li>
-            <li><a href="https://stfelixlasalle.fr/etablissement/campus">Campus</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/etablissement/college-le-bon-conseil">Collège Le Bon Conseil</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/etablissement/college-saint-donatien">Collège St Donatien</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/etablissement/voie-generale-technologique">Lycée Général et Technologique</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/etablissement/lycee-professionnel">Lycée Professionnel</a></li>
+            <li><a id="lienfooter" href="https://stfelixlasalle.fr/etablissement/campus">Campus</a></li>
         </ul>
     </div>
     <div class="footerContainer">
@@ -76,16 +83,12 @@
             Suivez-nous sur
         </h3>
         <ul>
-            <li><a></a></li>
-            <li><a></a></li>
-            <li><a href=""></a></li>
-            <li><a></a></li>
-            <li><a></a></li>
+            <label id="twitter"><a href="https://twitter.com/stfelixlasalle" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></label>
+            <label id="facebook"><a href="https://www.facebook.com/stfelixlasalle" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></label>
+            <label id="linkedin"><a href="https://www.linkedin.com/school/st-f%C3%A9lix-la-salle/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></label>
         </ul>
     </div>
 </footer>
-
-<script src="Scripts/LoadingScreen.js"></script>
 
 </body>
 </html>
