@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Style/style.css">
     <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
 </head>
 <body>
-<div onload="myFunction()" id="body">
+
 <header>
     <img src="https://stfelixlasalle.fr/wp-content/themes/wordpress-bootstrap-master/images/logo.png" alt="St Félix-La Salle">
-    <p>
-        Bienvenu au parking professeur de l'enssemble stfelixlasalle
-    </p>
 </header>
 
-<div class="budy">
-    <button class="a">
-        bonsoir
-    </button>
-</div>
+<table>
+    <tr>
+        <td>
+            <h1>Places Restantes</h1>
+            <p></p>
+        </td>
+        <td>
+            <h1>Places occupées</h1>
+            <p></p>
+        </td>
+    </tr>
+    <tfoot>
+        <tr>
+            <td colspan="2">
+                <button>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Réserver une place
+            </button>
+            </td>
+        </tr>
+    </tfoot>
+</table>
 
 <footer>
-        <div class="container">
+        <div class="footerContainer">
             <img src="https://stfelixlasalle.fr/wp-content/themes/wordpress-bootstrap-master/images/logo2.png" alt="Ensemble St Félix-La Salle">
             <p>
                 OGEC NANTES ERDRE<br>
@@ -28,10 +45,11 @@
                 44001 NANTES Cedex 1<br>
             </p>
         </div>
-        <div class="container">
+        <div class="footerContainer">
+            <h3>
+                Informations
+            </h3>
             <p>
-                Informations<br>
-                <br>
                 Réseau La Salle<br>
                 Contact et plan d'accès<br>
                 Inscriptions<br>
@@ -39,10 +57,11 @@
                 Projet d'établissement<br>
             </p>
         </div>
-        <div class="container">
+        <div class="footerContainer">
+            <h3>
+                nos structures
+            </h3>
             <p>
-                NOS STRUCTURES<br>
-                <br>
                 Collège Le Bon Conseil<br>
                 Collège St Donatien<br>
                 Lycée Général et Technologique<br>
@@ -51,7 +70,6 @@
             </p>
         </div>
 </footer>
-</div>
 
 <script src="Scripts/LoadingScreen.js"></script>
 

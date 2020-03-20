@@ -1,0 +1,90 @@
+@import "Button.css";
+
+html, body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Consolas !important;
+}
+
+header{
+    padding: 2rem;
+    position: relative;
+    top: 0;
+    background: #a6a6a6;
+    color: #eb206c;
+    align-content: center;
+}
+
+footer{
+    padding: 2rem;
+    position: relative;
+    top: 100%;
+    height: 200px;
+    background: #1b3737;
+    color: #ffffff;
+    display: block;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+table{
+    position: relative;
+    width: 100%;
+    color: #ff4d89;
+    text-shadow: 0 0 10px #eb206c,
+                 0 0 20px #eb206c,
+                 0 0 40px #eb206c;
+    padding: 3rem;
+}
+
+tr{
+    padding: 1rem;
+    background: rgb(8, 8, 8);
+}
+
+td{
+    padding: 1.5rem 2.5rem;
+}
+
+tfoot{
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.footerContainer{
+    position: center;
+    margin-right: 5%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar{
+    right: 0;
+    height: 0;
+    position: absolute;
+    background: #1b3737;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #ff26bd;
+}
+@media (max-width: 768px){
+    footer{
+        background: #FFffff;
+    }
+}
+@media (max-width: 414px) {
+    footer{
+        background: purple;
+    }
+}
