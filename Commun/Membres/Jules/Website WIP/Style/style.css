@@ -81,12 +81,6 @@ h3{
     font-size: 18px;
 }
 
-.footerContainer{
-    margin: 0 3%;
-    display: inline-block;
-    color: #ffffff;
-}
-
 ::-webkit-scrollbar{
     right: 0;
     height: 0;
