@@ -2,17 +2,26 @@
     display: inline-block;
     color: white;
     text-shadow: none;
-    margin: 0 5%;
-    top: 0;
     height: 100%;
 }
 
-tr + .footerContainer{
+#tr{
     background: none;
 }
 
-td + .footerContainer{
+#td{
+    width: 1%;
     padding: 0;
+}
+
+#td:nth-child(1){
+    padding-left: 5%;
+    left: 0;
+}
+
+#td:nth-last-child(1){
+    padding-right: 5%;
+    right: 0;
 }
 
 table{
