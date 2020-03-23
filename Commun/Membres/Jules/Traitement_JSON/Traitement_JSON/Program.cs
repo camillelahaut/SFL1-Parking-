@@ -58,6 +58,11 @@ namespace Traitement_JSON
 
     public class JSON
     {
+        public ObjData(string path)
+        {
+            JsonSerializer.Deserialize()
+        }
+
         public static string DataToJSON(string Data)
         {
             string JSONData = JsonSerializer.Serialize(Data);
@@ -71,5 +76,10 @@ namespace Traitement_JSON
             return "Data";
         }
 
+    }
+
+    public class ConnectBdd
+    {
+        
     }
 }

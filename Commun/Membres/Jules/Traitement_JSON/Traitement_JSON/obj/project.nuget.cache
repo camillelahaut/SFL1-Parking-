@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "sVaRh0a8BhIFFNDm8RpyzZI77fLb89DP3pKItxR6yJVfWBgju2W3dlza6fqefOTTGw2TwjvMG5UalJY5qQ8ObQ==",
+  "success": true,
+  "projectFilePath": "E:\\Drawing Git Repository\\SFL1-Parking-\\Commun\\Membres\\Jules\\Traitement_JSON\\Traitement_JSON\\Traitement_JSON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jules\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\2.9.8\\microsoft.codeanalysis.fxcopanalyzers.2.9.8.nupkg.sha512",
+    "C:\\Users\\Jules\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\2.9.8\\microsoft.codeanalysis.versioncheckanalyzer.2.9.8.nupkg.sha512",
+    "C:\\Users\\Jules\\.nuget\\packages\\microsoft.codequality.analyzers\\2.9.8\\microsoft.codequality.analyzers.2.9.8.nupkg.sha512",
+    "C:\\Users\\Jules\\.nuget\\packages\\microsoft.netcore.analyzers\\2.9.8\\microsoft.netcore.analyzers.2.9.8.nupkg.sha512",
+    "C:\\Users\\Jules\\.nuget\\packages\\microsoft.netframework.analyzers\\2.9.8\\microsoft.netframework.analyzers.2.9.8.nupkg.sha512",
+    "C:\\Users\\Jules\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
