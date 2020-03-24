@@ -1,0 +1,49 @@
+.Login{
+    position: relative;
+    background: #444444;
+    text-align: center;
+    padding: 20px;
+    margin: 3rem;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+    font-family: sans-serif;
+}
+
+.Login input[type="text"], .Login input[type="password"]{
+    margin: 20px auto;
+    padding: 14px 10px;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 24px;
+    text-align: center;
+    transition: 0.25s;
+    display: block;
+    font-weight: bold;
+    width: 150px;
+}
+
+.Login input[type="text"]:focus, .Login input[type="password"]:focus{
+    width: 225px;
+    border-color: greenyellow;
+    outline: none;
+}
+
+.Login input[type="submit"]{
+    margin: 20px auto;
+    padding: 14px 25px;
+    background: none;
+    border: 2px solid gray;
+    border-radius: 24px;
+    text-align: center;
+    transition: 0.25s;
+    display: block;
+    font-weight: bold;
+    outline: none;
+}
+
+.Login input[type="submit"]:hover{
+    border-color: green;
+    background: greenyellow;
+}

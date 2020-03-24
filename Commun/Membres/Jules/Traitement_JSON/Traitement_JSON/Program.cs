@@ -78,7 +78,7 @@ namespace Traitement_JSON
 
     }
 
-    public class ConnectBdd
+    public class ConnectionBdd
     {
         
     }

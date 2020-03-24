@@ -1,5 +1,6 @@
 @import "Button.css";
 @import "Table.css";
+@import "Login.css";
 
 html, body{
     margin: 0;
@@ -12,10 +13,14 @@ html, body{
 .body{
     background: no-repeat url("../Images/urban_dark_industrial_parking_garage_fluorescent-77237.jpg");
     background-size: 100% 100%;
-    height: 1000px;
     font-family: Consolas;
     padding: 3rem;
+    top: 0;
+    position: relative;
 }
+
+#main{height: 1000px}
+#lgn{height: 440.5px;}
 
 header{
     padding: 1rem;
