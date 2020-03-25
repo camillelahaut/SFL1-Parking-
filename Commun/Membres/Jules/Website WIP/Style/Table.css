@@ -1,29 +1,3 @@
-.footerContainer{
-    display: inline-block;
-    color: white;
-    text-shadow: none;
-    height: 100%;
-}
-
-#tr{
-    background: none;
-}
-
-#td{
-    width: 1%;
-    padding: 0;
-}
-
-#td:nth-child(1){
-    padding-left: 5%;
-    left: 0;
-}
-
-#td:nth-last-child(1){
-    padding-right: 5%;
-    right: 0;
-}
-
 table{
     position: relative;
     width: 100%;

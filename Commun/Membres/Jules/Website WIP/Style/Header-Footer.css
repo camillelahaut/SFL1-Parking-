@@ -1,0 +1,105 @@
+header{
+    width: 100%;
+    position: relative;
+    background: radial-gradient(circle, #4c4c4c 0%, #272727 100%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.headerContainer{
+    horiz-align: center;
+    padding: 1rem 2rem;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+#Headerlg{
+    position: relative;
+    transform: translate(10%, 25%);
+}
+
+footer{
+    width: 100%;
+    position: relative;
+    background: radial-gradient(circle, #4c4c4c 0%, #272727 100%);
+    color: #ffffff;
+    display: block;
+    height: fit-content;
+}
+
+#Footerlg{
+    position: absolute;
+    right: 5%;
+    top: 0;
+    height: 100%;
+}
+
+.footerContainer {
+    display: inline-block;
+    color: white;
+    text-shadow: none;
+    height: 100%;
+    padding: 0;
+    background: none;
+    margin: 2rem 3.5rem;
+}
+
+#lienfooter{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#lienfooter:hover{
+    text-decoration: underline;
+    background: rgba(255, 38, 189, 0.8);
+    box-shadow: 0 0 10px #ff26bd,
+    0 0 20px #ff26bd,
+    0 0 40px #ff26bd;
+    color: black;
+}
+
+.tel{
+    font-size: 18px;
+}
+
+#Follow{
+    position: relative;
+    top: 0;
+    transform: translate(0, -28%);
+}
+
+.Follow{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 0 0.8rem;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8),
+                -1px -1px 6px rgba(255, 255, 255, 0.1);
+    font-size: 40px;
+}
+
+.Follow:hover{
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.8),
+                inset -1px -1px 6px rgba(255, 255, 255, 0.1);
+}
+
+#twitter{
+    transform: translate(35%, 10%);
+}
+
+#facebook{
+    transform: translate(75%, 10%);
+}
+
+#linkedin{
+    transform: translate(35%, 10%);
+}
+
+.fa{
+    color: white;
+}
