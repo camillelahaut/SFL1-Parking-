@@ -1,6 +1,6 @@
 
 
-html body{
+html body {
     background: #1b3737;
     background-image:  url("../image/urban_dark_industrial_parking_garage_fluorescent-77237.jpg") ;
     margin: 0;
@@ -35,6 +35,15 @@ footer{                               /* pied de page */
     background: #1b3737;
     color: #ffffff;
     display: block;
+
+}
+
+
+#footerIg{
+    position: absolute;
+    right: 5%;
+    top: 0;
+    height: 100%;
 
 }
 
