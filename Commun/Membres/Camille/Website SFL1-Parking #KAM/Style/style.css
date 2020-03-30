@@ -2,7 +2,7 @@
 
 html body {
     background: #1b3737;
-    background-image:  url("../image/urban_dark_industrial_parking_garage_fluorescent-77237.jpg") ;
+    background-image: url("../image/urban_dark_industrial_parking_garage_fluorescent-77237.jpg") ;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -74,7 +74,7 @@ h3{                        /* titre de 3ème niveau */
 }
 
 table{                          /* tableaux */
-    position: ;
+    position: relative;
     width: 100%;
     color: #ff4d89;
     text-shadow: 0 0 10px #eb206c,   /* ajout d'une ombre au texte */

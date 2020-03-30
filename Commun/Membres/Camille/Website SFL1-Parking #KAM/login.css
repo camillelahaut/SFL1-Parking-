@@ -1,23 +1,37 @@
- body{
+html body{
 
-     margin: 0;
-     padding: 0;
-     font-family: Roboto Sans-serif;
-     background: #34495e;
+
+
+    margin:0;
+    padding:0;
+    background: url("image/ps.jpg") no-repeat center fixed;
+    -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+    background-size: cover; /* version standardisée */
+    font-size: 15px;
+    text-align: center;
+    padding: 2rem;
+    color: black;
+    text-transform: uppercase;
 
 }
 
 
  .box{
 
-     width: 300px;
-     padding: 40px;
+     width: 400px;
+     padding: 5rem;
      position: absolute;
      top: 50%;
      left : 50%;
      transform: translate(-50%,-50%);
      background: #191919;
      text-align: center;
+     border: 2px solid;
+     border-radius: 35px;
+
+
+
+
 
  }
 
@@ -26,6 +40,7 @@
      color: white;
      text-transform: uppercase;
      font-weight: 500;
+
  }
 
 
@@ -43,6 +58,7 @@
      color: white;
      border-radius: 24px;
      transition: 0.25s;
+
 
  }
 
@@ -67,8 +83,8 @@
      width: 200px;
      outline: none;
      color: white;
-     border-radius: 24px;
-     transition: 0.25s;
+     border-radius: 25px;
+     transition: 0.3s;
      cursor:pointer;
 
  }
@@ -79,3 +95,4 @@
      background:#2ecc71
 
  }
+
