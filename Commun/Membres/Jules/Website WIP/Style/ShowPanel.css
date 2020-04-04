@@ -1,0 +1,44 @@
+.ShowPanel{
+    position: relative;
+    padding: 10px;
+    display: inline-block;
+    width: 250px;
+    height: 80px;
+    background: linear-gradient(315deg, #4c4c4c, #272727);
+    overflow: hidden;
+}
+
+.ShowPanel:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    transform: skew(2deg, 2deg);
+    background: white;
+    z-index: -1;
+}
+
+.ShowPanel:hover{
+    height: 400px;
+    transition: 0.5s;
+}
+
+.ShowPanel h1{
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.ShowPanel p{
+    transform: translate(0, -100%);
+    color: rgba(0, 0, 0, 0);
+}
+
+.ShowPanel:hover p{
+    transform: translate(0);
+    display: block;
+    transition: 0.5s;
+    color: #ff0006;
+}

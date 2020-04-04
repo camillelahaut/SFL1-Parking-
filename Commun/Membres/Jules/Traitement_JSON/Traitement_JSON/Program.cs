@@ -4,6 +4,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClien;
 
 namespace Traitement_JSON
 {
@@ -60,7 +61,7 @@ namespace Traitement_JSON
     {
         public ObjData(string path)
         {
-            JsonSerializer.Deserialize()
+            JsonSerializer.Deserialize();
         }
 
         public static string DataToJSON(string Data)
@@ -80,6 +81,6 @@ namespace Traitement_JSON
 
     public class ConnectionBdd
     {
-        
+        string connectionString = "SERVER=192.158.1.2;DATABASE=sfl1-db;UID=sfl1-application;PASSWORD=";
     }
 }

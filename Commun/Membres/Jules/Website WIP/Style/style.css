@@ -3,6 +3,7 @@
 @import "Table.css";
 @import "Login.css";
 @import "Scrollbar.css";
+@import "ShowPanel.css";
 
 html, body{
     margin: 0;
@@ -23,6 +24,7 @@ html, body{
 
 #main{height: 1000px}
 #lgn{height: 35em}
+#demo{height: 1000px}
 
 
 h2{
