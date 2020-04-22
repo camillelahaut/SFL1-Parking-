@@ -1,0 +1,14 @@
+{
+	"DevEUI":"70B3D53AF0032355",
+	"AppEUI":"70B3D53AF0032335",
+	"Appkey":"54A968F716E3BD9C9F704E7629EB5D4D",
+	"occuper":"true",
+	"lastUpdate":"15/03/2020 15:20"
+}
+{
+	"DevEUI":"70B3D53AF0032356",
+	"AppEUI":"70B3D53AF0032335",
+	"Appkey":"1AC6E10935AFD74B126BF1217E7ACF6A",
+	"occuper":"false",
+	"lastUpdate":"15/03/2020 16:18"
+}
