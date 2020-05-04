@@ -31,15 +31,9 @@ namespace sfl1_parking
 
         private string TranslateDevEUItoId(string DevEUI)
         {
-            switch (DevEUI)
-            {
-                case "70B3D53AF0032355":
-                    return "1";//replace (Put identifer here)
-                case "70B3D53AF0032356":
-                    return "2";//replace (Put identifer here)
-                default:
-                    return "wrong DevEUI";
-            }
+            ConnectionBDD DevEUICheck = new ConnectionBDD();
+
+            return DevEUICheck.GetDevEUI(DevEUI);
         }
     }
 

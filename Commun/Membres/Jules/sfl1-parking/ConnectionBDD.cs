@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Text;
 using MySql.Data.MySqlClient;
 
@@ -42,17 +43,45 @@ namespace sfl1_parking
                 //fermeture de la connexion
                 this.connection.Close();
             }
-            catch
+            catch (Exception e)
             {
                 //getion des erreurs
-                Console.WriteLine("TimeOut ? ou autre");
+                Console.WriteLine(e);
             }
         }
 
-        public string GetData() //réception de donnée (probablement inutile)
+        public string GetDevEUI(string DevEUI)
         {
+            string idCapteur = "";
+            try
+            {
+                //ouverture de la connexion SQL
+                this.connection.Open();
+                //création d'une commande SQL en rapport avec l'objet connexion
+                MySqlCommand cmd = this.connection.CreateCommand();
 
-            return "yo";
+                //Reqète SQL
+                cmd.CommandText = "SELECT idCapteur FROM Capteurs WHERE DevEUI = '" + DevEUI + "'";
+
+                //excution de la requète SQL
+                cmd.ExecuteNonQuery();
+
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    idCapteur = reader.GetString(1);
+                }
+
+                //fermeture de la connexion
+                this.connection.Close();
+            }
+            catch (Exception e)
+            {
+                //getion des erreurs
+                Console.WriteLine(e);
+            }
+            return idCapteur;
         }
     }
 }

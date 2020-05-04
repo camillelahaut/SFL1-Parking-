@@ -19,24 +19,10 @@ namespace sfl1_parking
 
             while (true)
             {
-                Console.WriteLine("Choose option (0 or 1 or 2) : "); //choix de la méthode de connexion
+                Console.WriteLine("Choose option (1 or 2) : "); //choix de la méthode de connexion
                 string choise = Console.ReadLine();
                 switch (choise)
                 {
-                    case "0":
-                        try
-                        {
-                            var client = new WebClient();
-                            var content = client.DownloadString("http://82.231.146.148/servers/");
-                            Console.WriteLine(content);
-                            //string Data = content;
-                            break;
-                        }
-                        catch
-                        {
-                            Console.WriteLine("Time Out ?");
-                            break;
-                        }
                     case "1":
                         try
                         {
@@ -48,9 +34,9 @@ namespace sfl1_parking
                             //string Data = stream;
                             break;
                         }
-                        catch
+                        catch (Exception e)
                         {
-                            Console.WriteLine("Time Out ?");
+                            Console.WriteLine(e);
                             break;
                         }
                     case "2":

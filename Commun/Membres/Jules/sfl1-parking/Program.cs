@@ -10,7 +10,7 @@ namespace sfl1_parking
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Here is the begning");
+            Console.WriteLine("Begening of the application");
 
             ConnectionLoRa LoRa = new ConnectionLoRa();
 
@@ -19,11 +19,6 @@ namespace sfl1_parking
             ConnectionBDD Bdd = new ConnectionBDD();
 
             Bdd.SendData(Traitement.DataDeserialized);
-            /*
-            //Test
-            string[] data = { "0", "1", "2" };
-            Bdd.SendData(data);
-            */
         }
     }
 }
