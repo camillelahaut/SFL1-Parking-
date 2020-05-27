@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Text;
 using System.Net;
 using System.IO;
+using System.Net.Http;
+using System.Net.Http.Headers;
 
 namespace sfl1_parking
 {
@@ -16,7 +18,6 @@ namespace sfl1_parking
         }
         private void InitConnexion() //initialisation de la connexion
         {
-
             while (true)
             {
                 Console.WriteLine("Choose option (1 or 2) : "); //choix de la méthode de connexion
@@ -26,16 +27,27 @@ namespace sfl1_parking
                     case "1":
                         try
                         {
-                            HttpWebRequest request = WebRequest.Create("http://82.231.146.148/servers/") as HttpWebRequest;
+                            using (var httpClient = new HttpClient())
+                            {
+                                using (var request = new HttpRequestMessage(new HttpMethod("POST"), "https://wiotys.wi6labs.net:8440/v1/frame/AC000001AC000001"))
+                                {
+                                    request.Headers.TryAddWithoutValidation("Accept", "application/json");
 
-                            HttpWebResponse response = request.GetResponse() as HttpWebResponse;
-                            Stream stream = response.GetResponseStream();
-                            Console.WriteLine(stream);
-                            //string Data = stream;
+                                    var base64authorization = Convert.ToBase64String(Encoding.ASCII.GetBytes("user:userPwd"));
+                                    request.Headers.TryAddWithoutValidation("Authorization", $"Basic {base64authorization}");
+
+                                    request.Content = new StringContent("{\"frame\":\"0123abcd\",\"port\":6}");
+                                    request.Content.Headers.ContentType = MediaTypeHeaderValue.Parse("application/json");
+
+                                    var response = httpClient.SendAsync(request);
+                                    Console.WriteLine("La communication avec la BDD MariaDB c'est éffectuée sans problèmes");
+                                }
+                            }
                             break;
                         }
                         catch (Exception e)
                         {
+                            Console.WriteLine("Une erreur est survenue dans la connexion ou de la communication à la BDD MariaDB");
                             Console.WriteLine(e);
                             break;
                         }

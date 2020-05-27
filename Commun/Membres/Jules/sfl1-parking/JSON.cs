@@ -12,7 +12,15 @@ namespace sfl1_parking
         public JSON()
         {
             string Data = File.ReadAllText(@"E:\Drawing Git Repository\SFL1 - Parking -\Commun\Membres\Jules\sfl1 - parking\JsonFile.txt"); //exemple de réception
-            DataDeserialized = this.JSONDesrialize(Data);
+            Console.WriteLine("Début du traitement des données.");
+            try
+            {
+                DataDeserialized = this.JSONDesrialize(Data);
+            }
+            catch (Exception e) {
+                Console.WriteLine("Une erreur est survenue pendant le traitement des données.");
+                Console.WriteLine(e);
+            }
         }
 
         public JSON(string Data)

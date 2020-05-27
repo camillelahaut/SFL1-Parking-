@@ -29,6 +29,7 @@ namespace sfl1_parking
         {
             try
             {
+                Console.WriteLine("Envoie des données à la BDD MySQL");
                 //ouverture de la connexion SQL
                 this.connection.Open();
                 //création d'une commande SQL en rapport avec l'objet connexion
@@ -42,10 +43,12 @@ namespace sfl1_parking
 
                 //fermeture de la connexion
                 this.connection.Close();
+                Console.WriteLine("Les informations des capteurs ont été envoyé à la BDD MySQL sans problèmes");
             }
             catch (Exception e)
             {
                 //getion des erreurs
+                Console.WriteLine("Une erreur est survenue lors de la connexion ou de la communication avec la BDD MySQL");
                 Console.WriteLine(e);
             }
         }
@@ -55,6 +58,7 @@ namespace sfl1_parking
             string idCapteur = "";
             try
             {
+                Console.WriteLine("Comparaison des DevEUI avec la BDD MySQL.");
                 //ouverture de la connexion SQL
                 this.connection.Open();
                 //création d'une commande SQL en rapport avec l'objet connexion
@@ -79,6 +83,7 @@ namespace sfl1_parking
             catch (Exception e)
             {
                 //getion des erreurs
+                Console.WriteLine("Une erreur est survenue lors de la comparaison des 'DevEUI'");
                 Console.WriteLine(e);
             }
             return idCapteur;
