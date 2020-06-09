@@ -5,10 +5,3 @@
 	"occuper":"true",
 	"lastUpdate":"15/03/2020 15:20"
 }
-{
-	"DevEUI":"70B3D53AF0032356",
-	"AppEUI":"70B3D53AF0032335",
-	"Appkey":"1AC6E10935AFD74B126BF1217E7ACF6A",
-	"occuper":"false",
-	"lastUpdate":"15/03/2020 16:18"
-}

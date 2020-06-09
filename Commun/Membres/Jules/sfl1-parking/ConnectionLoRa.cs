@@ -18,8 +18,8 @@ namespace sfl1_parking
         }
         private void InitConnexion() //initialisation de la connexion
         {
-            while (true)
-            {
+            //while (true)
+            //{
                 Console.WriteLine("Choose option (1 or 2) : "); //choix de la méthode de connexion
                 string choise = Console.ReadLine();
                 switch (choise)
@@ -52,13 +52,13 @@ namespace sfl1_parking
                             break;
                         }
                     case "2":
-                        Data = File.ReadAllText(@"JsonFile.txt"); //exemple de réception
+                        Data = File.ReadAllText(@"E:\Drawing Git Repository\SFL1-Parking-\Commun\Membres\Jules\sfl1-parking\JsonFile.txt"); //exemple de réception
                         break;
                     default:
                         Console.WriteLine("Your input was wrong");
                         break;
                 }
-            }
+            //}
         }
 
         public string GetData()
